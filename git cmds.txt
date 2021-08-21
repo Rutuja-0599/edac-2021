@@ -1,0 +1,373 @@
+Microsoft Windows [Version 10.0.19041.1110]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Om Sai>\Users\Om Sai\Documents\GitHub\edac-2021
+'\Users\Om' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Om Sai>cd \Users\Om Sai\Documents\GitHub\edac-2021
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>init git
+'init' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git init
+Reinitialized existing Git repository in C:/Users/Om Sai/Documents/GitHub/edac-2021/.git/
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git add newf.txt
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   newf.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        first.txt
+
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>commit -m "A new file for recap added to repo"
+'commit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git commit -m "A new file for recap added to repo"
+[master 71a4f59] A new file for recap added to repo
+ 1 file changed, 6 insertions(+)
+ create mode 100644 newf.txt
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 328 bytes | 164.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Rutuja-0599/edac-2021.git
+   7b3559b..71a4f59  master -> master
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git log
+commit 71a4f595efed8e9323f5218cf302ffe3dbde6aec (HEAD -> master, origin/master)
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 21 09:22:02 2021 +0530
+
+    A new file for recap added to repo
+
+commit 7b3559bb43eb3a3c5d5405ef8f456ab5e2b98b9d
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 14 13:51:36 2021 +0530
+
+    message
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>log --graph
+'log' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git log --graph
+* commit 71a4f595efed8e9323f5218cf302ffe3dbde6aec (HEAD -> master, origin/master)
+| Author: Rutuja Dighe <rutujadighe275@gmail.com>
+| Date:   Sat Aug 21 09:22:02 2021 +0530
+|
+|     A new file for recap added to repo
+|
+* commit 7b3559bb43eb3a3c5d5405ef8f456ab5e2b98b9d
+  Author: Rutuja Dighe <rutujadighe275@gmail.com>
+  Date:   Sat Aug 14 13:51:36 2021 +0530
+
+      message
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        first.txt
+        git cmds.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git add test.txt
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git add first.txt
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git add git cmds.txt
+fatal: pathspec 'git' did not match any files
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   first.txt
+        modified:   test.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git cmds.txt
+
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   first.txt
+        modified:   test.txt
+
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git log
+commit 71a4f595efed8e9323f5218cf302ffe3dbde6aec (HEAD -> master, origin/master)
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 21 09:22:02 2021 +0530
+
+    A new file for recap added to repo
+
+commit 7b3559bb43eb3a3c5d5405ef8f456ab5e2b98b9d
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 14 13:51:36 2021 +0530
+
+    message
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>copy con newfbr.txt
+this file will be stored in "master" or in "authentication"??
+^Z
+        1 file(s) copied.
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git add newfbr.txt
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git commit -m "Branching initiated"
+[master 27132d3] Branching initiated
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+ create mode 100644 first.txt
+ create mode 100644 newfbr.txt
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git log
+commit 27132d316826ad53f64829f68ab1853d50de333b (HEAD -> master)
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 21 09:37:10 2021 +0530
+
+    Branching initiated
+
+commit 71a4f595efed8e9323f5218cf302ffe3dbde6aec (origin/master)
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 21 09:22:02 2021 +0530
+
+    A new file for recap added to repo
+
+commit 7b3559bb43eb3a3c5d5405ef8f456ab5e2b98b9d
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 14 13:51:36 2021 +0530
+
+    message
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git branch authentication
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git checkout authentication
+Switched to branch 'authentication'
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git log
+commit 27132d316826ad53f64829f68ab1853d50de333b (HEAD -> authentication, master)
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 21 09:37:10 2021 +0530
+
+    Branching initiated
+
+commit 71a4f595efed8e9323f5218cf302ffe3dbde6aec (origin/master)
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 21 09:22:02 2021 +0530
+
+    A new file for recap added to repo
+
+commit 7b3559bb43eb3a3c5d5405ef8f456ab5e2b98b9d
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 14 13:51:36 2021 +0530
+
+    message
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git status
+On branch authentication
+nothing to commit, working tree clean
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git log
+commit 27132d316826ad53f64829f68ab1853d50de333b (HEAD -> authentication, master)
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 21 09:37:10 2021 +0530
+
+    Branching initiated
+
+commit 71a4f595efed8e9323f5218cf302ffe3dbde6aec (origin/master)
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 21 09:22:02 2021 +0530
+
+    A new file for recap added to repo
+
+commit 7b3559bb43eb3a3c5d5405ef8f456ab5e2b98b9d
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 14 13:51:36 2021 +0530
+
+    message
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 472 bytes | 236.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Rutuja-0599/edac-2021.git
+   71a4f59..27132d3  master -> master
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git checkout aunthentication
+error: pathspec 'aunthentication' did not match any file(s) known to git
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git log
+commit 27132d316826ad53f64829f68ab1853d50de333b (HEAD -> master, origin/master, authentication)
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 21 09:37:10 2021 +0530
+
+    Branching initiated
+
+commit 71a4f595efed8e9323f5218cf302ffe3dbde6aec
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 21 09:22:02 2021 +0530
+
+    A new file for recap added to repo
+
+commit 7b3559bb43eb3a3c5d5405ef8f456ab5e2b98b9d
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 14 13:51:36 2021 +0530
+
+    message
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git checkout aunthentication
+error: pathspec 'aunthentication' did not match any file(s) known to git
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git branch
+  authentication
+  main
+* master
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git head
+git: 'head' is not a git command. See 'git --help'.
+
+The most similar command is
+        help
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git master
+git: 'master' is not a git command. See 'git --help'.
+
+The most similar command is
+        restore
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git log
+commit 27132d316826ad53f64829f68ab1853d50de333b (HEAD -> master, origin/master, authentication)
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 21 09:37:10 2021 +0530
+
+    Branching initiated
+
+commit 71a4f595efed8e9323f5218cf302ffe3dbde6aec
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 21 09:22:02 2021 +0530
+
+    A new file for recap added to repo
+
+commit 7b3559bb43eb3a3c5d5405ef8f456ab5e2b98b9d
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 14 13:51:36 2021 +0530
+
+    message
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git checkout authentication
+Switched to branch 'authentication'
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git push
+fatal: The current branch authentication has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin authentication
+
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git push --set-upstream origin authentication
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'authentication' on GitHub by visiting:
+remote:      https://github.com/Rutuja-0599/edac-2021/pull/new/authentication
+remote:
+To https://github.com/Rutuja-0599/edac-2021.git
+ * [new branch]      authentication -> authentication
+Branch 'authentication' set up to track remote branch 'authentication' from 'origin'.
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git merge authentication
+Already up to date.
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git push
+Everything up-to-date
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git log
+commit 27132d316826ad53f64829f68ab1853d50de333b (HEAD -> master, origin/master, origin/authentication, authentication)
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 21 09:37:10 2021 +0530
+
+    Branching initiated
+
+commit 71a4f595efed8e9323f5218cf302ffe3dbde6aec
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 21 09:22:02 2021 +0530
+
+    A new file for recap added to repo
+
+commit 7b3559bb43eb3a3c5d5405ef8f456ab5e2b98b9d
+Author: Rutuja Dighe <rutujadighe275@gmail.com>
+Date:   Sat Aug 14 13:51:36 2021 +0530
+
+    message
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git mergetool
+
+This message is displayed because 'merge.tool' is not configured.
+See 'git mergetool --tool-help' or 'git help config' for more details.
+'git mergetool' will now attempt to use one of the following tools:
+tortoisemerge emerge vimdiff nvimdiff
+No files need merging
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>git config --global merge.tool
+
+C:\Users\Om Sai\Documents\GitHub\edac-2021>
